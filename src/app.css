@@ -36,3 +36,48 @@
 		--radius: 0.5rem;
 	}
 }
+@layer base {
+	h1 {
+		color: hsl(142.097 70.588% 69.02%); /* green */
+		font-size: 2.25rem; /* 36px */
+		line-height: 2.5rem; /* 40px */
+		font-weight: bold;
+	}
+	h2 {
+		color: hsl(267.391 83.898% 77.451%); /* mauve */
+		font-size: 1.875rem; /* 30px */
+		line-height: 2.25rem; /* 36px */
+		font-weight: bold;
+	}
+	h3 {
+		color: hsl(343.269 81.25% 74.902%); /* red */
+		font-size: 1.5rem; /* 24px */
+		line-height: 2rem; /* 32px */
+		font-weight: bold;
+	}
+	h4 {
+		color: hsl(198.5 75.949% 69.02%); /* sapphire */
+		font-size: 1.25rem; /* 20px */
+		line-height: 1.75rem; /* 28px */
+		font-weight: bold;
+	}
+	h5 {
+		color: hsl(188.824 63.415% 69.02%); /* blue */
+		font-size: 1.125rem; /* 18px */
+		line-height: 1.75rem; /* 28px */
+		font-weight: bold;
+	}
+	h6 {
+		color: hsl(267.391 83.898% 77.451%); /* mauve */
+		font-size: 1rem; /* 16px */
+		line-height: 1.5rem; /* 24px */
+		font-weight: bold;
+	}
+	strong {
+		color: hsl(343.269 81.25% 74.902%); /* red */
+		font-weight: 600; /* semibold */
+	}
+	a {
+		color: hsl(188.824 63.415% 69.02%); /* blue */
+	}
+}

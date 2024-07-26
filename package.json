@@ -29,17 +29,10 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"bits-ui": "^0.21.12",
 		"clsx": "^2.1.1",
 		"lucide-svelte": "^0.414.0",
 		"mode-watcher": "^0.4.0",
-		"svelte-radix": "^1.1.0",
 		"tailwind-merge": "^2.4.0",
 		"tailwind-variants": "^0.2.1"
-	},
-	"svelte": {
-		"extensions": [
-			".svelte"
-		]
 	}
 }

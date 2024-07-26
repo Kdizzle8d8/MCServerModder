@@ -37,14 +37,15 @@
 	});
 </script>
 
-<div
-	class="border-border hover:border-primary bg-card flex w-full rounded-lg border-2 p-4 shadow-xl transition-all"
+<a
+	class="border-border hover:border-primary bg-card flex w-full items-start justify-start rounded-lg border-2 p-4 shadow-xl transition-all hover:bg-opacity-50"
+	href={`/${mod.slug}`}
 >
 	<div class="bg-secondary size-20 rounded-md">
 		<img class="size-20" src={mod.icon_url} alt={mod.title} />
 	</div>
 	<div class="ml-4 grid grid-rows-3 gap-1">
-		<h1 class="w-full text-xl font-bold">{mod.title}</h1>
+		<h1 class="w-full text-start text-xl font-bold">{mod.title}</h1>
 		<p class="text-muted-foreground w-full">{mod.description}</p>
 		<div class="flex w-full gap-2">
 			<div class="bg-primary flex flex-row items-center rounded-md px-2 py-1">
@@ -58,4 +59,4 @@
 			</div>
 		</div>
 	</div>
-</div>
+</a>
